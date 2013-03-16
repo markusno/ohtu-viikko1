@@ -116,6 +116,6 @@ public class VarastoTest {
         double saldo = varasto.getSaldo();
         double maara = varasto.otaVarastosta(saldo+3);
         // saldon pitäisi olla sama kun lisätty määrä
-        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(1, varasto.getSaldo(), vertailuTarkkuus);
     }
 }
