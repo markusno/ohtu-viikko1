@@ -1,0 +1,5 @@
+user;pa55word
+kayttaja;sala1nen
+matti;me1kala1nen
+maija;me1kala1nen
+
