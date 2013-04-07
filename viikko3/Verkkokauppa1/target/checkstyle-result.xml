@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.6">
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/PankkiInterface.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kauppa.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Tuote.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java">
+<error line="12" column="5" severity="error" message="Cyclomatic Complexity is 7 (max allowed is 3)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="12" column="5" severity="error" message="Method length is 14 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="14" severity="error" message="if at indentation level 8 not at correct indentation, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="9" severity="error" message="Nested if-else depth is 1 (max allowed is 0)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="15" severity="error" message="if at indentation level 8 not at correct indentation, 16" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="9" severity="error" message="Nested if-else depth is 2 (max allowed is 0)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="16" severity="error" message="for at indentation level 8 not at correct indentation, 20" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" severity="error" message="for at indentation level 8 not at correct indentation, 24" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="9" severity="error" message="Nested for depth is 1 (max allowed is 0)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedForDepthCheck"/>
+<error line="18" severity="error" message="for at indentation level 8 not at correct indentation, 28" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="9" severity="error" message="Nested for depth is 2 (max allowed is 0)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedForDepthCheck"/>
+<error line="19" severity="error" message="method call child at indentation level 8 not at correct indentation, 32" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" severity="error" message="for rcurly at indentation level 8 not at correct indentation, 24" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" severity="error" message="for rcurly at indentation level 8 not at correct indentation, 20" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" severity="error" message="if rcurly at indentation level 8 not at correct indentation, 16" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" severity="error" message="if rcurly at indentation level 8 not at correct indentation, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="5" severity="error" message="Cyclomatic Complexity is 7 (max allowed is 3)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="27" column="5" severity="error" message="Method length is 14 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="29" severity="error" message="if at indentation level 8 not at correct indentation, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="9" severity="error" message="Nested if-else depth is 1 (max allowed is 0)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="30" severity="error" message="if at indentation level 8 not at correct indentation, 16" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="9" severity="error" message="Nested if-else depth is 2 (max allowed is 0)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="31" severity="error" message="for at indentation level 8 not at correct indentation, 20" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" severity="error" message="for at indentation level 8 not at correct indentation, 24" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="9" severity="error" message="Nested for depth is 1 (max allowed is 0)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedForDepthCheck"/>
+<error line="33" severity="error" message="for at indentation level 8 not at correct indentation, 28" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="9" severity="error" message="Nested for depth is 2 (max allowed is 0)." source="com.puppycrawl.tools.checkstyle.checks.coding.NestedForDepthCheck"/>
+<error line="34" severity="error" message="method call child at indentation level 8 not at correct indentation, 32" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" severity="error" message="for rcurly at indentation level 8 not at correct indentation, 24" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="36" severity="error" message="for rcurly at indentation level 8 not at correct indentation, 20" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="37" severity="error" message="if rcurly at indentation level 8 not at correct indentation, 16" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" severity="error" message="if rcurly at indentation level 8 not at correct indentation, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/KirjanpitoInterface.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Ostoskori.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/VarastoInterface.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Pankki.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/GeneraattoriInterface.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Viitegeneraattori.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/Main.java">
+<error line="9" column="5" severity="error" message="Method length is 20 lines (max allowed is 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/PankkiInterface.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java">
+<error line="14" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 23" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="14" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="14" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 34" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="23" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="23" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 34" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="28" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 34" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kauppa.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java">
+<error line="12" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 17" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="12" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 14" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="12" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 23" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="12" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="12" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 34" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="17" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 14" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="17" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 23" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="17" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="17" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 34" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Tuote.java">
+<error line="1" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="13" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 12" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="13" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 17" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="13" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Tuote.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="13" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 14" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="13" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 23" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="13" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="13" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 34" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="28" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 12" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="28" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 17" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="28" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 14" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="28" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 23" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="28" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="28" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 34" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="33" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kauppa.java, starting from line 43" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java">
+<error line="1" severity="error" message="Found duplicate of 10 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/PankkiInterface.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="13" severity="error" message="Found duplicate of 13 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="20" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 23" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="20" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 39" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="20" severity="error" message="Found duplicate of 4 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 22" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="20" severity="error" message="Found duplicate of 4 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 38" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="20" severity="error" message="Found duplicate of 5 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 21" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="20" severity="error" message="Found duplicate of 5 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 37" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="20" severity="error" message="Found duplicate of 6 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 36" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="21" severity="error" message="Found duplicate of 5 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 35" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="22" severity="error" message="Found duplicate of 4 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 35" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="23" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 35" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="24" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kauppa.java, starting from line 35" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="35" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 39" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="35" severity="error" message="Found duplicate of 4 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 38" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="35" severity="error" message="Found duplicate of 5 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 37" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="35" severity="error" message="Found duplicate of 6 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 36" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/KirjanpitoInterface.java">
+<error line="1" severity="error" message="Found duplicate of 6 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="error" message="Found duplicate of 6 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/PankkiInterface.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="8" severity="error" message="Found duplicate of 5 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 6" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="8" severity="error" message="Found duplicate of 5 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/PankkiInterface.java, starting from line 6" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Ostoskori.java">
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/VarastoInterface.java">
+<error line="1" severity="error" message="Found duplicate of 10 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="error" message="Found duplicate of 10 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/PankkiInterface.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="error" message="Found duplicate of 6 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/KirjanpitoInterface.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="6" severity="error" message="Found duplicate of 5 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/KirjanpitoInterface.java, starting from line 8" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Pankki.java">
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 12" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 17" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Tuote.java, starting from line 13" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Tuote.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 14" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 23" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 34" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/GeneraattoriInterface.java">
+<error line="1" severity="error" message="Found duplicate of 10 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/BadStyle.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="error" message="Found duplicate of 10 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/PankkiInterface.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="error" message="Found duplicate of 10 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/VarastoInterface.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="error" message="Found duplicate of 6 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/KirjanpitoInterface.java, starting from line 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="6" severity="error" message="Found duplicate of 5 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/KirjanpitoInterface.java, starting from line 8" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Viitegeneraattori.java">
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 12" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito.java, starting from line 17" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Pankki.java, starting from line 9" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Tuote.java, starting from line 13" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Tuote.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 14" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 23" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 28" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="9" severity="error" message="Found duplicate of 3 lines in /home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto.java, starting from line 34" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="/home/markus/Documents/Koulu/Ohtu/ohtu_markusno/viikko3/Verkkokauppa1/src/main/java/ohtu/Main.java">
+</file>
+</checkstyle>
