@@ -11,12 +11,12 @@ import olutopas.model.Brewery;
 
 import com.avaje.ebean.Transaction;
 import olutopas.model.Pub;
-import olutopas.model.Rating;
-import olutopas.model.Users;
+import olutopas.model.User;
 
 public class Main {
 
     enum Database {
+
         H2, SQLite
     }
 
@@ -45,7 +45,6 @@ public class Main {
             sqLite.setDriver("org.sqlite.JDBC");
             sqLite.setUsername("mluukkai");
             sqLite.setPassword("mluukkai");
-            //sqLite.setUrl("jdbc:sqlite:/home/mluukkai/sqlite/kannat/beer.db");
             sqLite.setUrl("jdbc:sqlite:beer.db");
             config.setDataSourceConfig(sqLite);
             config.setDatabasePlatform(new SQLitePlatform());
@@ -57,16 +56,15 @@ public class Main {
 
         config.addClass(Beer.class);
         config.addClass(Brewery.class);
-        config.addClass(Users.class);
-        config.addClass(Rating.class);
         config.addClass(Pub.class);
+        config.addClass(User.class);
 
         if (dropAndCreateDatabase) {
             config.setDdlGenerate(true);
             config.setDdlRun(true);
             //config.setDebugSql(true);
-        }        
-        
+        }
+
         return EbeanServerFactory.create(config);
     }
 }
