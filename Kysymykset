@@ -1,0 +1,5 @@
+5. Maven
+
+-compilen jälkeen löytyy käännetyt luokat kansiosta target->classes->ohtu->ohtuvarasto
+-cleanin jälkeen käännettyjä luokkia ei löydy
+-clean poistaa koko target kansion ja sen sisällön
